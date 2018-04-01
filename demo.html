@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<title>jQuery首字母检索手机通讯录模板</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<header class="fixed">
+			<div class="header">
+				通讯录
+			</div>
+		</header>
+
+		<div id="letter"></div>
+		<div class="sort_box">
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18112651385" >
+					<div class="num_name">创一电商</div>	
+				</a>
+			</div>	
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15148496658" >
+					<div class="num_name">德意成经典菜馆</div>	
+				</a>
+			</div>	
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15849055802" >
+					<div class="num_name">嘉禾快餐厅</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:13848080325" >
+					<div class="num_name">朝鲜老太太拌饭
+</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15049029877" >
+					<div class="num_name">徐记麻辣烫</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15374707579" >
+					<div class="num_name">鲜果时光黄焖鸡</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15104871188" >
+					<div class="num_name">吉祥混沌</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18847017906" >
+					<div class="num_name">避风塘</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15204932433" >
+					<div class="num_name">点赞饺子馆</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15248757032" >
+					<div class="num_name">吕师傅过桥米线</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18247066686" >
+					<div class="num_name">巧夫人过桥米线</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18047072631" >
+					<div class="num_name">河套美食城</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:13394803392" >
+					<div class="num_name">天天见面快餐</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:13789701953" >
+					<div class="num_name">避风塘快餐小二楼</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15548030234" >
+					<div class="num_name">叫个饭桶</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18547004578" >
+					<div class="num_name">姐弟土豆粉黄焖鸡</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18647004226" >
+					<div class="num_name">双聚源</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18547063124" >
+					<div class="num_name">馋嘴鸡</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18647043733" >
+					<div class="num_name">朱迪的房间</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:13848602879" >
+					<div class="num_name">久久鸭脖王</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15248779430" >
+					<div class="num_name">一块鸡排</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15547086310" >
+					<div class="num_name">满天红快餐</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:13134948945" >
+					<div class="num_name">休闲快餐</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:13789503435" >
+					<div class="num_name">大佛麻辣烫</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15847027600" >
+					<div class="num_name">天骄烤肉拌饭</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18748387496" >
+					<div class="num_name">龙晟快餐</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:13948803962" >
+					<div class="num_name">满都拉快餐</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15332705163" >
+					<div class="num_name">川天椒麻辣烫</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:13644704956" >
+					<div class="num_name">满嘴香麻辣烫</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18747067486" >
+					<div class="num_name">上海钙骨包</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15714708181" >
+					<div class="num_name">咱家特色烤肉</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15734888181" >
+					<div class="num_name">超哥水饺</div>	
+				</a>
+			</div>
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15248769755" >
+					<div class="num_name">台湾卤肉饭</div>	
+				</a>
+			</div>	
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15848009728" >
+					<div class="num_name">同福小吃烤肉拌饭</div>	
+				</a>
+			</div>	
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:18847033765" >
+					<div class="num_name">春梅小吃部</div>	
+				</a>
+			</div>	
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15104937949" >
+					<div class="num_name">快餐城</div>	
+				</a>
+			</div>	
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15734702125" >
+					<div class="num_name">食必思黄焖鸡米饭</div>	
+				</a>
+			</div>	
+			<div class="sort_list">
+				<div class="num_logo">
+					<img src="img/img.png" alt="">
+				</div>
+				<a href="tel:15204928172" >
+					<div class="num_name">奶咖骑士</div>	
+				</a>
+			</div>
+		</div>
+		<div class="initials">
+			<ul>
+				<li><img src="img/068.png"></li>
+			</ul>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.charfirst.pinyin.js"></script>
+		<script type="text/javascript" src="js/sort.js"></script>
+	</body>
+
+</html>
